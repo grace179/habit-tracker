@@ -3,20 +3,23 @@ import Habit from './habit';
 
 
 class Habits extends Component {
-    state = {
-        habits: [
-            {id: 1, name: 'Reading', count: 0},
-            {id: 2, name: 'Running', count: 0},
-            {id: 3, name: 'Coding', count: 0},
-
-        ],
-    };
-
+    
     render() {
+
+        const habits = this.props.habits;
+        const onIncrement = this.props.onIncrement;
+        const onDecrement = this.props.onDecrement;
+        const onDelete = this.props.onDelete;
+
+
         return (
             <ul>
-                {this.state.habits.map(habit => (
-                    <Habit key = {habit.id} habit={habit} />
+                {habits.map(habit => (
+                    <Habit key = {habit.id} 
+                    habit={habit} 
+                    onIncrement={onIncrement} 
+                    onDecrement={onDecrement}
+                    onDelete={onDelete}/>
                 ))}
             </ul>
             );

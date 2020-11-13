@@ -81,6 +81,10 @@ button{
   display: inline-block;
 }
 
+.right{
+  display: flex;
+}
+
 .habit-count{
   display: inline-block;
   text-align: center;
@@ -112,7 +116,7 @@ button{
 
 .habit-delete{
   font-size: 2rem;
-  color: darkred;
+  color: #000;
 }
 
 .habits-reset{

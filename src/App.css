@@ -8,10 +8,12 @@ button{
   cursor: pointer;
 }
 .container{
-  width: 70vw;
+  width: 60vw;
   margin: 20px auto;
   text-align:center;
   background-color: rgb(223, 240, 248);
+  border-radius: 4px;
+  overflow: hidden;
 }
 .navbar{
   font-size: 2rem;
@@ -43,11 +45,11 @@ button{
   margin-top: 10px;
 }
 .add-input{
-  width: 70%;
+  width: 70%;    
   border: 1px solid skyblue;
-  border-radius: 4px;
+  border-radius: 5px;
   margin-right: 10px;
-  padding: 5px 10px;
+  padding: 10px;
 }
 
 .add-input:focus{
@@ -55,11 +57,17 @@ button{
 }
 
 .add-button{
-  padding: 5px 10px;
+  padding: 10px;
   font-size: 1rem;
-  border-radius: 3px;
+  font-weight: 600;
+  border-radius: 5px;
   background-color: skyblue;
 }
+
+.add-button:hover{
+  opacity: 0.8;
+}
+
 .habit{
   font-size: 2.5rem;
   padding: 0.5em;
@@ -72,6 +80,7 @@ button{
 .right{
   display: inline-block;
 }
+
 .habit-count{
   display: inline-block;
   text-align: center;
@@ -98,10 +107,20 @@ button{
 
 .habit-increase,
 .habit-decrease{
-  color: goldenrod;
+  color: #0066ff;
 }
 
 .habit-delete{
   font-size: 2rem;
   color: darkred;
+}
+
+.habits-reset{
+  background-color: #0066ff;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
 }

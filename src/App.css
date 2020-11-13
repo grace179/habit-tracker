@@ -7,6 +7,12 @@ button{
   border: 0;
   cursor: pointer;
 }
+.container{
+  width: 70vw;
+  margin: 20px auto;
+  text-align:center;
+  background-color: rgb(223, 240, 248);
+}
 .navbar{
   font-size: 2rem;
   padding: 1em;
@@ -18,23 +24,54 @@ button{
   margin-right: 0.5em;
 }
 
+.question{
+  font-size: 1.2rem;
+}
 .navbar-count{
   display: inline-block;
   text-align: center;
-  font-size: 2rem;
-  width: 2.5rem;
-  height: 2.5rem;
+  font-size: 1.5rem;
+  width: 2rem;
+  height: 2rem;
   background-color: #fff;
   border-radius: 50%;
   color: blue;
+  margin-left: 0.5rem;
+}
+.add-form{
+  font-size: 2rem;
+  margin-top: 10px;
+}
+.add-input{
+  width: 70%;
+  border: 1px solid skyblue;
+  border-radius: 4px;
+  margin-right: 10px;
+  padding: 5px 10px;
 }
 
+.add-input:focus{
+  outline: skyblue;
+}
+
+.add-button{
+  padding: 5px 10px;
+  font-size: 1rem;
+  border-radius: 3px;
+  background-color: skyblue;
+}
 .habit{
   font-size: 2.5rem;
   padding: 0.5em;
   list-style: none;
+  display: flex;
+  justify-content: space-between;
 }
 
+.left,
+.right{
+  display: inline-block;
+}
 .habit-count{
   display: inline-block;
   text-align: center;
@@ -48,6 +85,7 @@ button{
   background-color: skyblue;
   border-radius: 50%;
 }
+
 .habit-button{
   font-size: 2.5rem;
   margin: 0 0.1rem;

@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 import Habit from './habit';
+import HabbitAddForm from './habbitAddForm';
 
 
 class Habits extends Component {
     
+    handleAdd = name =>{
+        this.props.onAdd(name);
+    }
     render() {
 
         const habits = this.props.habits;
@@ -13,6 +17,8 @@ class Habits extends Component {
 
 
         return (
+            <>
+            <HabbitAddForm onAdd={this.handleAdd}/>
             <ul>
                 {habits.map(habit => (
                     <Habit key = {habit.id} 
@@ -22,6 +28,7 @@ class Habits extends Component {
                     onDelete={onDelete}/>
                 ))}
             </ul>
+            </>
             );
     }
 }

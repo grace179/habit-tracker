@@ -21,3 +21,7 @@
 * 진행중인 습관의 총 개수가 상단에 표시됩니다.
 * 삭제 버튼을 누르면 리스트에서 습관이 삭제 됩니다.
 ![habbit btn event](https://user-images.githubusercontent.com/72989367/99222279-91cd8b80-2825-11eb-9462-def0498f027c.gif)
+
+#### 
+* 하단에 있는 'reset all' 버튼을 누르면 실행횟수가 '0'으로 초기화 됩니다.
+![habit reset btn](https://user-images.githubusercontent.com/72989367/99222966-f6d5b100-2826-11eb-9d83-e5314b77de0a.gif)

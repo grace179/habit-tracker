@@ -14,3 +14,4 @@
 ## 기능
 #### 만들고 싶은 습관 추가 하기
 * 입력창에 입력한 후 add 버튼을 클릭하거나 enter 키를 누르면 습관이 추가 됩니다.
+![habit add](https://user-images.githubusercontent.com/72989367/99221267-9e50e480-2823-11eb-9659-5db29f41cf1c.gif)

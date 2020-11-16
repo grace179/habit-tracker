@@ -6,4 +6,7 @@
 * 배포 : netlify
 
 
+#### 메인화면
+* 사이트 실행시 뜨는 화면입니다.
 
+<img width="788" alt="habit-tracker" src="https://user-images.githubusercontent.com/72989367/99220845-c724aa00-2822-11eb-92e3-1ddebf401e9d.png">
